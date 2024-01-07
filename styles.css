@@ -20,7 +20,7 @@ body {
     border-radius: 30px;
     box-shadow: 0 0 25px 1px #ff9100;
     transition: background-position .5s;
-    transition: transform 0.5s ease-out;
+    transition: transform 0.8s ease-out;
    
   }
   .header-content:hover {
@@ -46,7 +46,6 @@ body {
     background-color: rgba(255, 248, 248, 0.764);; 
     padding: 20px;
     text-align: right;
-    transition: transform 1s ease-in-out;
     border: 1px solid #07e6ff; /* Dark red border */
     margin: 20px;
     padding: 1.5rem;
@@ -54,7 +53,7 @@ body {
     cursor: pointer;
     color: rgb(0, 0, 0);
     box-shadow: 0 0 25px 1px #345c8a;
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in;
   }
   
   .tech-element:hover {
