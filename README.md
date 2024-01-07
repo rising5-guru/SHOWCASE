@@ -29,6 +29,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Note:** Replace placeholders like `[Project Name](#)` with actual project names and links.
-
-Feel free to customize the README.md further based on the specific details of your projects and any additional information you want to include.
