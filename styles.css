@@ -53,8 +53,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
     color: rgb(0, 0, 0);
-      box-shadow: 0 0 25px 1px #345c8a;
-    transition:  all 1s easy-in-out;
+    box-shadow: 0 0 25px 1px #345c8a;
+    transition: all 1s ease-in;
   }
   
   .tech-element:hover {
