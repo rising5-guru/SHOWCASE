@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5d1d6; /* Attractive light pink background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the entire viewport height is covered */
+  }
+  
+  .header-content {
+    background-position: 100dvb;
+    background-color: #000000;
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px 30px;
+    width: full;
+    border-radius: 30px;
+    box-shadow: 0 0 25px 1px #ff9100;
+    transition: background-position .5s;
+    transition: transform 0.5s ease-out;
+   
+  }
+  .header-content:hover {
+    background-color: #ffffff;
+    transform: scale(1.2);
+    color: rgb(0, 0, 0); 
+    border-radius: 30px;
+    box-shadow: 0 0 25px 1px #0a92cdb8;
+   
+  }
+
+  
+
+  .tech-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .tech-element {
+    background-color: rgba(255, 248, 248, 0.764);; 
+    padding: 20px;
+    text-align: right;
+    transition: transform 1s ease-in-out;
+    border: 1px solid #07e6ff; /* Dark red border */
+    margin: 20px;
+    padding: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition:  border-radius background-color color transform 1s easy-in-out;
+    box-shadow: 0 0 25px 1px #345c8a;
+
+  
+  }
+  
+  .tech-element:hover {
+    border: 1px solid #ff0707;
+    box-shadow: 0 0 50px 2px #fb020293;
+    background-color: rgb(4, 0, 0);; 
+    transform: scale(1.2);
+    color: #ffffff;
+    border-radius: 25px;
+  }
+  .download-button {
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #96d2c7;
+    transition: background-color 1s ease-out;
+    padding: 2.5px 10px 5px 10px;
+    
+  }
+
+  .download-button:hover {
+    color: hwb(0 95% 5%);
+    background-color: #0566eeef;
+    transform: scale(1.05);
+  }
+  @import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Main styles */
+body {
+  margin-top: 13.5rem;
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 0.92s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+body::before {
+  content: "Rising5.guru";
+  font-size: 8rem;
+  font-weight: 100;
+  font-style: normal;
+}
+
+  
